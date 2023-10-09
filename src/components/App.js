@@ -1,11 +1,18 @@
 import  './App.css';
-import Footer from './Footer/footer';
+import footer from './Footer/footer';
 import React from 'react';
+import Header from './Nav/header'
+
+  
+
 
 function App() {
   return (
-    <Footer/>
-
+   <div>
+     <Header />
+    {/* <Footer /> */}
+    
+   </div>
     );
 }
 
