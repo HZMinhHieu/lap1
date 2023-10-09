@@ -1,0 +1,111 @@
+/* footer.css */
+
+footer {
+    background: #000;
+    color: #fff;
+    position: relative;
+  }
+  
+  .footer-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa theo chiều ngang */
+  }
+  
+  .footer-content h2 {
+    font-size: 32px;
+  }
+  
+  .footer-content p {
+    font-size: 16px;
+    max-width: 296px;
+    text-align: center; /* Căn giữa theo chiều ngang */
+  }
+  
+  .footer-links {
+    margin-top: 20px; /* Khoảng cách giữa phần trên và phần dưới */
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Đảm bảo nó căn chỉnh theo chiều ngang */
+  }
+  
+  .footer-links-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links-col a {
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-subscribe {
+    margin-top: 20px; /* Khoảng cách giữa phần trên và phần dưới */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa theo chiều ngang */
+    font-family: Poppins;
+
+  }
+  
+  .footer-subscribe h3 {
+      font-family: 'Poppins', sans-serif; /* Đặt font-family thành 'Poppins' */
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+  
+  .subscribe-form {
+    background: #fff;
+    display: flex;
+    height: 52px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .subscribe-form input {
+    flex: 1;
+    font-size: 14px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .subscribe-form button {
+    background: #0ac75a;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .subscribe-form button:hover {
+    background: #09a252;
+  }
+  .content-footer{
+    display: flex;  
+    justify-content: space-around;
+    width: 100%;
+  }
+  .left-footer{
+    width: 30%;
+    float: left;
+    font-size: larger;
+  }
+  .right-footer{
+    width: 65%;
+  }
+
+  .subscribe-form input::placeholder {
+    color: #0ac75a; /* Đặt màu cho chữ "Your Email address" */
+  
+  }

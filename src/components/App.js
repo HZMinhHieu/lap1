@@ -1,9 +1,10 @@
-import './App.css'
-
+import  './App.css'
+import Footer from './Footer/Footer/footer';
 function App() {
   return (
-    <p class="App">react test </p>
-  );
+    <Footer/>
+
+    );
 }
 
 export default App;
